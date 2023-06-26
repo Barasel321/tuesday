@@ -10,3 +10,6 @@ scoreboard players set .black alive 0
 scoreboard players set .purple alive 0
 scoreboard players set .pink alive 0
 scoreboard players set .total alive 0
+
+
+scoreboard players set .jump ability -200

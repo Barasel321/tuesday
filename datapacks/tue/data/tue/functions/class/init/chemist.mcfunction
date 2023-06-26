@@ -6,6 +6,7 @@ give @s redstone 16
 give @s glowstone_dust 16
 give @s gunpowder 16
 give @s fermented_spider_eye 16
+give @s dragon_breath 4
 
 give @s spider_eye
 give @s rabbit_foot

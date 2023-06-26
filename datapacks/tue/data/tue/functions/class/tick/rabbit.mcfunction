@@ -1,0 +1,2 @@
+execute if score @s ability matches ..-1 run scoreboard players add @s ability 1
+execute if predicate tue:sneaking if entity @s[nbt={OnGround:0b}] if score @s ability matches 0.. run function tue:class/ability/jump
