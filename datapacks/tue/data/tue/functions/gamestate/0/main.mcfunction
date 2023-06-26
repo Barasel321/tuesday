@@ -12,3 +12,7 @@ execute as @a at @s if block ~ ~-1 ~ red_concrete run team join red @s
 
 execute as @a at @s if block ~ ~-1 ~ light_gray_concrete run team join spec @s
 execute as @a at @s if block ~ ~-1 ~ gray_concrete run team leave @s
+
+
+execute unless entity @a[team=] as @a at @s run function tue:gamestate/0/ready
+execute if entity @a[team=] as @a at @s run function tue:gamestate/0/not_ready
