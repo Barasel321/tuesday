@@ -1,4 +1,3 @@
-scoreboard players set .max class 10
 scoreboard players set .max rounds 1
 
 scoreboard players set .red alive 0

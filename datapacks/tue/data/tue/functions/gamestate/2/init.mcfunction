@@ -1,0 +1,1 @@
+function tue:class/init

@@ -1,0 +1,10 @@
+title @s[scores={class=0}] actionbar {"text":"Class: Nothing"}
+title @s[scores={class=1}] actionbar {"text":"Class: Librarian"} 
+title @s[scores={class=2}] actionbar {"text":"Class: Rabbit"} 
+title @s[scores={class=3}] actionbar {"text":"Class: Astronaut"} 
+title @s[scores={class=4}] actionbar {"text":"Class: Chemist"} 
+title @s[scores={class=5}] actionbar {"text":"Class: Demolitionist"} 
+title @s[scores={class=6}] actionbar {"text":"Class: Patient"} 
+title @s[scores={class=7}] actionbar {"text":"Class: Magician"} 
+title @s[scores={class=8}] actionbar {"text":"Class: Pyromaniac"} 
+title @s[scores={class=9}] actionbar {"text":"Class: Ninja"} 

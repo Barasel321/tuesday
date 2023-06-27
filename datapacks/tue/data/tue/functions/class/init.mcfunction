@@ -1,0 +1,10 @@
+execute as @a[scores={class=0}] run function tue:class/init/null
+execute as @a[scores={class=1}] run function tue:class/init/librarian
+execute as @a[scores={class=2}] run function tue:class/init/rabbit
+execute as @a[scores={class=3}] run function tue:class/init/astronaut
+execute as @a[scores={class=4}] run function tue:class/init/chemist
+execute as @a[scores={class=5}] run function tue:class/init/demo
+execute as @a[scores={class=6}] run function tue:class/init/patient
+execute as @a[scores={class=7}] run function tue:class/init/magician
+execute as @a[scores={class=8}] run function tue:class/init/pyromaniac
+execute as @a[scores={class=9}] run function tue:class/init/ninja
