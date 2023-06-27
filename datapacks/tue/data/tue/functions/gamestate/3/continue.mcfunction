@@ -1,0 +1,1 @@
+scoreboard players set .gamestate global 1

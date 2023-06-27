@@ -6,9 +6,11 @@ scoreboard objectives add ability dummy
 scoreboard objectives add global dummy
 scoreboard objectives add temp dummy
 scoreboard objectives add constant dummy
+scoreboard objectives add death deathCount
 
 function tue:system/time/reset
 
 function tue:system/team_setup
 
+function tue:system/constant_setup
 function tue:system/variable_setup

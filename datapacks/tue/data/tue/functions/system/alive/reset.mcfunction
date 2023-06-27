@@ -1,4 +1,5 @@
 scoreboard players set .teams alive 0
+scoreboard players set .total alive 0
 
 scoreboard players set .red alive 0
 scoreboard players set .blue alive 0

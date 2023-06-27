@@ -1,0 +1,10 @@
+execute store result score .red alive if entity @a[team=red,gamemode=survival]
+execute store result score .blue alive if entity @a[team=blue,gamemode=survival]
+execute store result score .white alive if entity @a[team=white,gamemode=survival]
+execute store result score .black alive if entity @a[team=black,gamemode=survival]
+execute store result score .lime alive if entity @a[team=lime,gamemode=survival]
+execute store result score .yellow alive if entity @a[team=yellow,gamemode=survival]
+execute store result score .purple alive if entity @a[team=purple,gamemode=survival]
+execute store result score .pink alive if entity @a[team=pink,gamemode=survival]
+
+execute store result score .total alive if entity @a[gamemode=survival]

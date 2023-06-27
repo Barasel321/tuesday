@@ -1,4 +1,5 @@
 scoreboard players set .max rounds 1
+scoreboard players set .current rounds 1
 
 scoreboard players set .red rounds 0
 scoreboard players set .blue rounds 0
