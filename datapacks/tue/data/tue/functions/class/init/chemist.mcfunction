@@ -1,13 +1,13 @@
 give @s brewing_stand 2
-give @s potion{Potion:"minecraft:water"} 16
+give @s potion{Potion:"minecraft:awkward"} 16
 give @s blaze_powder 6
-give @s nether_wart 16
 give @s redstone 16
 give @s glowstone_dust 16
 give @s gunpowder 16
 give @s fermented_spider_eye 16
 give @s dragon_breath 4
 
+#shulker box
 give @s spider_eye
 give @s rabbit_foot
 give @s sugar

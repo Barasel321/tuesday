@@ -6,7 +6,7 @@ place template tue:treemap4 0 0 100
 setblock 0 10 100 bedrock
 
 
-execute positioned -40 11 115 summon marker run tag @s add blue
+execute positioned 40 11 115 summon marker run tag @s add blue
 execute positioned 40 11 85 summon marker run tag @s add red
 
 execute positioned -40 11 115 summon marker run tag @s add white

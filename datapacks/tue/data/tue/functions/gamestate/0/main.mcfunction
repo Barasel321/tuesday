@@ -16,6 +16,8 @@ execute as @a at @s if block ~ ~-2 ~ gray_concrete run team leave @s
 gamemode adventure @a[gamemode=spectator]
 gamemode adventure @a[gamemode=survival]
 
+effect clear @a
+
 
 execute store result score .total global run execute if entity @a
 execute store result score .ready global run execute if entity @a[team=!]

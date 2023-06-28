@@ -6,4 +6,4 @@ item replace entity @s armor.feet with leather_boots{display:{color:16777215}}
 
 effect give @s jump_boost infinite 1 false
 effect give @s slow_falling infinite 0 false
-effect give @s slowness infinite 0 true
+effect give @s slowness infinite 0 false
