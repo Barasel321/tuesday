@@ -7,6 +7,7 @@ scoreboard objectives add global dummy
 scoreboard objectives add temp dummy
 scoreboard objectives add constant dummy
 scoreboard objectives add death deathCount
+scoreboard objectives add class_trigger trigger
 
 function tue:system/time/reset
 

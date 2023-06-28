@@ -1,0 +1,24 @@
+{
+    "parent": "tue:ability/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "damage": {
+            "type": {
+              "source_entity": {
+                "type": "minecraft:player"
+              },
+              "direct_entity": {
+                "type": "minecraft:snowball"
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "tue:ability/hard_snowball"
+    }
+  }
+  

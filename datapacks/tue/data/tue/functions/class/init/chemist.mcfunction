@@ -1,21 +1,6 @@
-give @s brewing_stand 2
-give @s potion{Potion:"minecraft:awkward"} 16
+give @s brewing_stand 3
 give @s blaze_powder 6
-give @s redstone 16
-give @s glowstone_dust 16
-give @s gunpowder 16
-give @s fermented_spider_eye 16
-give @s dragon_breath 4
 
-#shulker box
-give @s spider_eye
-give @s rabbit_foot
-give @s sugar
-give @s ghast_tear
-give @s phantom_membrane
-give @s magma_cream
-give @s pufferfish
-give @s glistering_melon_slice
-give @s golden_carrot
+give @s shulker_box{BlockEntityTag:{Items:[{Slot:0b,id:"minecraft:spider_eye",Count:4b},{Slot:1b,id:"minecraft:rabbit_foot",Count:4b},{Slot:2b,id:"minecraft:sugar",Count:4b},{Slot:3b,id:"minecraft:ghast_tear",Count:4b},{Slot:4b,id:"minecraft:phantom_membrane",Count:4b},{Slot:5b,id:"minecraft:magma_cream",Count:4b},{Slot:6b,id:"minecraft:pufferfish",Count:4b},{Slot:7b,id:"minecraft:glistering_melon_slice",Count:4b},{Slot:8b,id:"minecraft:golden_carrot",Count:4b},{Slot:9b,id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:awkward"}},{Slot:10b,id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:awkward"}},{Slot:11b,id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:awkward"}},{Slot:12b,id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:awkward"}},{Slot:13b,id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:awkward"}},{Slot:14b,id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:awkward"}},{Slot:15b,id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:awkward"}},{Slot:16b,id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:awkward"}},{Slot:17b,id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:awkward"}},{Slot:18b,id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:awkward"}},{Slot:19b,id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:awkward"}},{Slot:20b,id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:awkward"}},{Slot:21b,id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:awkward"}},{Slot:22b,id:"minecraft:dragon_breath",Count:4b},{Slot:23b,id:"minecraft:fermented_spider_eye",Count:16b},{Slot:24b,id:"minecraft:glowstone",Count:16b},{Slot:25b,id:"minecraft:gunpowder",Count:16b},{Slot:26b,id:"minecraft:redstone",Count:16b}]}} 1
 
 item replace entity @s armor.head with turtle_helmet

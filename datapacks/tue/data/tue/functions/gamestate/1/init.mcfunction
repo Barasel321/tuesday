@@ -11,6 +11,9 @@ gamemode adventure @a[team=!spec]
 gamemode spectator @a[team=spec]
 scoreboard players set @a death 0
 
+scoreboard players enable @a class_trigger
+scoreboard players set @a class_trigger -1
+
 title @a title ""
 title @a actionbar ""
 title @a subtitle ""

@@ -1,2 +1,3 @@
-damage @s 5
+damage @s 4
+effect give @s hunger 5 1 false
 advancement revoke @s only tue:ability/patient

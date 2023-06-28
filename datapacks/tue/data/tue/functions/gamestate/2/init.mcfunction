@@ -1,5 +1,6 @@
 clear @a written_book
 effect clear @a
+
 function tue:class/init
 
 worldborder set 1000
