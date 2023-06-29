@@ -547,7 +547,9 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "apple": "2023-06-27 21:35:34 -0400"
+      "cooked_beef": "2023-06-28 16:30:55 -0400",
+      "apple": "2023-06-27 21:35:34 -0400",
+      "golden_apple": "2023-06-28 16:33:57 -0400"
     },
     "done": false
   },
@@ -848,6 +850,12 @@
   "minecraft:adventure/avoid_vibration": {
     "criteria": {
       "avoid_vibration": "2023-06-27 23:47:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2023-06-28 16:34:50 -0400"
     },
     "done": true
   },

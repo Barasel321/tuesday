@@ -11,6 +11,8 @@ gamemode adventure @a[team=!spec]
 gamemode spectator @a[team=spec]
 scoreboard players set @a death 0
 
+execute as @a at @s unless score @s playerid matches 0.. run function tue:system/player_id
+
 scoreboard players enable @a class_trigger
 scoreboard players set @a class_trigger -1
 

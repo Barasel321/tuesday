@@ -1,0 +1,17 @@
+{
+    "parent": "tue:ability/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "nbt": "{wand:1}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "tue:class/ability/wand"
+    }
+  }
+  

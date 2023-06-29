@@ -1,2 +1,2 @@
-data modify entity @s Motion[1] set value 5
+effect give @s levitation 1 6
 scoreboard players operation @s ability = .jump ability

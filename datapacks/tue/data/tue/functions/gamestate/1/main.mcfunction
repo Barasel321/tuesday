@@ -1,6 +1,7 @@
 #pregame
 
 effect give @a resistance 1 5
+effect give @a saturation 1 1
 
 execute if score .global time matches 1 run function tue:gamestate/1/init
 
