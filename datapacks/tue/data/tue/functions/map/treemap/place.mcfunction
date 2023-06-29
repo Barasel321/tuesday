@@ -5,16 +5,15 @@ place template tue:treemap4 0 0 100
 
 setblock 0 10 100 bedrock
 
+summon marker 40 11 85 {Tags:["red","spawn"]}
+summon marker 40 11 115 {Tags:["blue","spawn"]}
 
-execute positioned 40 11 115 summon marker run tag @s add blue
-execute positioned 40 11 85 summon marker run tag @s add red
+summon marker -40 11 115 {Tags:["white","spawn"]}
+summon marker -40 11 85 {Tags:["black","spawn"]}
 
-execute positioned -40 11 115 summon marker run tag @s add white
-execute positioned -40 11 85 summon marker run tag @s add black
+summon marker 15 11 140 {Tags:["lime","spawn"]}
+summon marker -15 11 140 {Tags:["yellow","spawn"]}
 
-execute positioned 15 11 140 summon marker run tag @s add lime
-execute positioned -15 11 140 summon marker run tag @s add yellow
-
-execute positioned 15 11 60 summon marker run tag @s add purple
-execute positioned -15 11 60 summon marker run tag @s add pink
+summon marker 15 11 60 {Tags:["purple","spawn"]}
+summon marker -15 11 60 {Tags:["pink","spawn"]}
 

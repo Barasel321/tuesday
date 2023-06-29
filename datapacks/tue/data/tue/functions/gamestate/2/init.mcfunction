@@ -9,6 +9,10 @@ worldborder center 0 100
 xp set @a 0 levels
 kill @e[type=item]
 
+title @a times 10 70 20
+title @a[team=!spec] title "Choose Your Class"
+title @a[team=!spec] subtitle "Open the book and select a class"
+
 gamemode survival @a[team=!spec]
 
 tp @a[team=red] @e[tag=red,limit=1]
@@ -21,8 +25,5 @@ tp @a[team=pink] @e[tag=pink,limit=1]
 tp @a[team=purple] @e[tag=purple,limit=1]
 
 worldborder set 100
-
-
-
 
 execute store result score .total alive if entity @a[gamemode=survival]

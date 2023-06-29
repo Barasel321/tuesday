@@ -21,4 +21,5 @@ scoreboard players operation .ready temp /= 20 constant
 execute if score .ready time matches ..0 run scoreboard players set .gamestate global 1
 execute if score .gamestate global matches 1 run function tue:system/time/reset
 
+title @a times 0 20 0
 execute unless score .ready time matches 0..19 unless score .ready time matches 21..39 unless score .ready time matches 41..59 unless score .ready time matches 62..79 run title @a title {"score":{"name":".ready","objective":"temp"},"color":"red"}
