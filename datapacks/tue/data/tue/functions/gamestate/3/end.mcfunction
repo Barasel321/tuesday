@@ -1,5 +1,5 @@
 
-function tue:load
+
 
 tellraw @a {"text":"Rounds Won: ","bold": true}
 execute if entity @a[team=red] run tellraw @a [{"text":"Red: ","color":"red"},{"score":{"name":".red","objective":"rounds"}}]
@@ -11,4 +11,4 @@ execute if entity @a[team=yellow] run tellraw @a [{"text":"Yellow: ","color":"ye
 execute if entity @a[team=purple] run tellraw @a [{"text":"Purple: ","color":"dark_purple"},{"score":{"name":".red","objective":"rounds"}}]
 execute if entity @a[team=pink] run tellraw @a [{"text":"Pink: ","color":"light_purple"},{"score":{"name":".red","objective":"rounds"}}]
 
-function tue:system/variable_setup
+function tue:load

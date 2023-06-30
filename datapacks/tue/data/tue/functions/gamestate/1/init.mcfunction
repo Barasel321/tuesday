@@ -11,7 +11,7 @@ gamemode adventure @a[team=!spec]
 gamemode spectator @a[team=spec]
 scoreboard players set @a death 0
 
-execute as @a at @s unless score @s playerid matches 0.. run function tue:system/player_id
+execute as @a at @s unless score @s player_id matches 0.. run function tue:system/player_id
 
 scoreboard players enable @a class_trigger
 scoreboard players set @a class_trigger -1
@@ -20,6 +20,9 @@ title @a title ""
 title @a actionbar ""
 title @a subtitle ""
 
+title @a times 10 70 20
+title @a[team=!spec] title "Choose Your Class"
+title @a[team=!spec] subtitle "Open the book and select a class"
 
 tag @a remove winner
 

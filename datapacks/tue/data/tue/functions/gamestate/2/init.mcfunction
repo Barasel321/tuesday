@@ -9,9 +9,7 @@ worldborder center 0 100
 xp set @a 0 levels
 kill @e[type=item]
 
-title @a times 10 70 20
-title @a[team=!spec] title "Choose Your Class"
-title @a[team=!spec] subtitle "Open the book and select a class"
+
 
 gamemode survival @a[team=!spec]
 
