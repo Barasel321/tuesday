@@ -11,4 +11,4 @@ execute if entity @a[team=yellow] run tellraw @a [{"text":"Yellow: ","color":"ye
 execute if entity @a[team=purple] run tellraw @a [{"text":"Purple: ","color":"dark_purple"},{"score":{"name":".red","objective":"rounds"}}]
 execute if entity @a[team=pink] run tellraw @a [{"text":"Pink: ","color":"light_purple"},{"score":{"name":".red","objective":"rounds"}}]
 
-function tue:load
+function tue:reset
