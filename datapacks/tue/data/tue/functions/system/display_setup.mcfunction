@@ -12,7 +12,7 @@ summon interaction -4 2 12 {Tags:["friendly"]}
 summon item_display 2 2.5 12 {billboard:"center",item:{id:"minecraft:clock",Count:1b}}
 summon item_display 0 2.5 12 {billboard:"center",item:{id:"minecraft:oak_sapling",Count:1b}}
 summon item_display -2 2.5 12 {billboard:"center",item:{id:"minecraft:firework_rocket",Count:1b}}
-summon block_display -4 2.5 12 {block_state:{Name:"minecraft:tnt"}}
+summon block_display -4.0 2 12.0 {block_state:{Name:"minecraft:tnt"}}
 
 summon text_display -2 3 12 {Tags:["round"],billboard:"vertical"}
 summon text_display -4 3 12 {Tags:["friendly"],billboard:"vertical"}

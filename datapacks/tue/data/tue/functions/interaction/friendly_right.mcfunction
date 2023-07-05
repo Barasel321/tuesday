@@ -12,3 +12,4 @@ team modify pink friendlyFire true
 data modify entity @e[type=text_display,tag=friendly,limit=1] text set value '[{"text":"Friendly Fire: "},{"text":"ON","color":"dark_green","bold":true}]'
 
 
+advancement revoke @s only tue:lobby/friendly_right
