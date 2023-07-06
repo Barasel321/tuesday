@@ -8,6 +8,10 @@ scoreboard players set -1 constant -1
 
 scoreboard players set .jump ability -4
 
+scoreboard players set .grenade ability 400
+scoreboard players set .grenade_init ability 600
+
+
 scoreboard players set .smokebomb ability 300
 scoreboard players set .wand ability 500
 scoreboard players set .tp ability 430

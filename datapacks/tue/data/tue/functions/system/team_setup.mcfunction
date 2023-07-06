@@ -8,14 +8,14 @@ team add purple "Purple"
 team add pink "Pink"
 team add spec "Spectator"
 
-team modify red collisionRule pushOtherTeams
-team modify blue collisionRule pushOtherTeams
-team modify yellow collisionRule pushOtherTeams
-team modify lime collisionRule pushOtherTeams
-team modify white collisionRule pushOtherTeams
-team modify black collisionRule pushOtherTeams
-team modify purple collisionRule pushOtherTeams
-team modify pink collisionRule pushOtherTeams
+team modify red collisionRule always
+team modify blue collisionRule always
+team modify yellow collisionRule always
+team modify lime collisionRule always
+team modify white collisionRule always
+team modify black collisionRule always
+team modify purple collisionRule always
+team modify pink collisionRule always
 team modify spec collisionRule never
 
 team modify red color red

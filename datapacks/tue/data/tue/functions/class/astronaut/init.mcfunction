@@ -1,8 +1,7 @@
-item replace entity @s armor.head with leather_helmet{display:{color:16777215}}
-item replace entity @s armor.chest with leather_chestplate{display:{color:16777215}}
-item replace entity @s armor.legs with leather_leggings{display:{color:16777215}}
-item replace entity @s armor.feet with leather_boots{display:{color:16777215}}
-
+item replace entity @s armor.head with iron_helmet
+item replace entity @s armor.chest with iron_chestplate
+item replace entity @s armor.legs with iron_leggings
+item replace entity @s armor.feet with iron_boots
 
 effect give @s jump_boost infinite 1 false
 effect give @s slow_falling infinite 0 false
