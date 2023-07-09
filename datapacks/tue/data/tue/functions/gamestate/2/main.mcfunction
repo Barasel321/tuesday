@@ -1,6 +1,6 @@
 #game
 
-execute if score .global time matches 301 run function tue:gamestate/2/init
+execute if score .global time matches 1 run function tue:gamestate/2/init
 
 function tue:class/tick
 kill @e[x=-50,y=-20,z=50,dx=100,dy=10,dz=100]

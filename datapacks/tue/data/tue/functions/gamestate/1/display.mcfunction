@@ -1,10 +1,15 @@
-title @s[scores={class=0}] actionbar {"text":"Class: Nothing"}
-title @s[scores={class=1}] actionbar {"text":"Class: Librarian"} 
-title @s[scores={class=2}] actionbar {"text":"Class: Rabbit"} 
-title @s[scores={class=3}] actionbar {"text":"Class: Astronaut"} 
-title @s[scores={class=4}] actionbar {"text":"Class: Chemist"} 
-title @s[scores={class=5}] actionbar {"text":"Class: Demolitionist"} 
-title @s[scores={class=6}] actionbar {"text":"Class: Patient"} 
-title @s[scores={class=7}] actionbar {"text":"Class: Magician"} 
-title @s[scores={class=8}] actionbar {"text":"Class: Pyromaniac"} 
-title @s[scores={class=9}] actionbar {"text":"Class: Ninja"} 
+scoreboard players operation .seconds temp = .seconds time
+
+scoreboard players operation .seconds temp -= 15 constant
+scoreboard players operation .seconds temp *= -1 constant
+
+title @a[scores={class=0},team=!spec] actionbar [{"text":"Class: Nothing"},{"text":"     Time To Start: "},{"score":{"name":".seconds","objective":"temp"},"color":"red"}]
+title @a[scores={class=1},team=!spec] actionbar [{"text":"Class: Librarian"},{"text":"     Time To Start: "},{"score":{"name":".seconds","objective":"temp"},"color":"red"}]
+title @a[scores={class=2},team=!spec] actionbar [{"text":"Class: Rabbit"},{"text":"     Time To Start: "},{"score":{"name":".seconds","objective":"temp"},"color":"red"}]
+title @a[scores={class=3},team=!spec] actionbar [{"text":"Class: Astronaut"},{"text":"     Time To Start: "},{"score":{"name":".seconds","objective":"temp"},"color":"red"}]
+title @a[scores={class=4},team=!spec] actionbar [{"text":"Class: Chemist"},{"text":"     Time To Start: "},{"score":{"name":".seconds","objective":"temp"},"color":"red"}]
+title @a[scores={class=5},team=!spec] actionbar [{"text":"Class: Demolitionist"},{"text":"     Time To Start: "},{"score":{"name":".seconds","objective":"temp"},"color":"red"}]
+title @a[scores={class=6},team=!spec] actionbar [{"text":"Class: Patient"},{"text":"     Time To Start: "},{"score":{"name":".seconds","objective":"temp"},"color":"red"}]
+title @a[scores={class=7},team=!spec] actionbar [{"text":"Class: Magician"},{"text":"     Time To Start: "},{"score":{"name":".seconds","objective":"temp"},"color":"red"}]
+title @a[scores={class=8},team=!spec] actionbar [{"text":"Class: Pyromaniac"},{"text":"     Time To Start: "},{"score":{"name":".seconds","objective":"temp"},"color":"red"}]
+title @a[scores={class=9},team=!spec] actionbar [{"text":"Class: Ninja"},{"text":"     Time To Start: "},{"score":{"name":".seconds","objective":"temp"},"color":"red"}]

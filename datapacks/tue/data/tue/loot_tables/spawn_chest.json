@@ -12,8 +12,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:binomial",
-                "n": 30,
-                "p": 0.6
+                "n": 64,
+                "p": 0.7
               }
             }
           ]

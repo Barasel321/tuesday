@@ -3,6 +3,7 @@ scoreboard players set .max_ready time 79
 
 scoreboard players set 2 constant 2
 scoreboard players set 10 constant 10
+scoreboard players set 15 constant 15
 scoreboard players set 20 constant 20
 scoreboard players set -1 constant -1
 
