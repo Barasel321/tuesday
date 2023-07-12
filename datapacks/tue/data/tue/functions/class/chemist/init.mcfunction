@@ -1,3 +1,4 @@
+#class 4
 give @s brewing_stand 3
 give @s blaze_powder 6
 

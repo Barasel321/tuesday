@@ -1,3 +1,4 @@
+#class 8
 give @s flint_and_steel{Unbreakable:1b,Enchantments:[{id:"minecraft:fire_aspect",lvl:3s}]} 1
 give @s lava_bucket 2
 

@@ -8,6 +8,8 @@ worldborder set 1000
 
 tp @a 0 1 0 
 
+function tue:system/variable_setup
+
 worldborder center 0 0
 worldborder set 35
 say ready

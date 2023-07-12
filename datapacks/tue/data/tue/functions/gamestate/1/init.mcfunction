@@ -21,7 +21,7 @@ title @a actionbar ""
 title @a subtitle ""
 
 title @a times 10 70 20
-title @a[team=!spec] title "Choose Your Class"
+title @a title [{"text":"Round: "},{"score":{"name":".current","objective":"rounds"}},{"text":"/"},{"score":{"name":".max","objective":"rounds"}}]
 title @a[team=!spec] subtitle "Open the book and select a class"
 
 tag @a remove winner
