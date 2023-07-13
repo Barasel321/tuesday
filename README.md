@@ -1,15 +1,25 @@
+# Made by Barasel321
 
 ## Recommended Server Settings
 
-
 gamemode=adventure
-pvp=true
+
 difficulty=normal
+
 allow-nether=false
-spawn-npcs=true
-spawn-animals=true
-function-permission-level=2
-spawn-monsters=true
+
+
+
+## Contributors and Playtesters
+
+- sralsaeed
+- ChaoticImme
+- DrBanaenae
+- Ash_47
+- RC2356
+- 3mkRob
+- fluxi_69
+
 
 
 
