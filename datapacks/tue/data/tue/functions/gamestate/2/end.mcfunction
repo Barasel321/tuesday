@@ -1,5 +1,5 @@
 title @a title ""
-title @a subtitle [{"selector":"@a[tag=winner]","separator":", ","bold":true},{"text":" wins","color":"reset"}]
+title @a subtitle [{"selector":"@a[tag=winner]","separator":", ","bold":true},{"text":" WIN","color":"reset"}]
 
 execute if entity @a[tag=winner,team=red] run scoreboard players add .red rounds 1
 execute if entity @a[tag=winner,team=blue] run scoreboard players add .blue rounds 1

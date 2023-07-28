@@ -11,7 +11,7 @@
       }
     },
     "rewards": {
-      "function": "tue:class/ability/wand"
+      "function": "tue:class/magician/wand"
     }
   }
   

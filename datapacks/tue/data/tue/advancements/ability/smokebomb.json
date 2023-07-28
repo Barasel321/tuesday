@@ -11,7 +11,7 @@
       }
     },
     "rewards": {
-      "function": "tue:class/ability/smokebomb"
+      "function": "tue:class/ninja/smokebomb"
     }
   }
   

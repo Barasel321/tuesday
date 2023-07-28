@@ -11,7 +11,7 @@
       }
     },
     "rewards": {
-      "function": "tue:class/ability/drugs"
+      "function": "tue:class/patient/drugs"
     }
   }
   
