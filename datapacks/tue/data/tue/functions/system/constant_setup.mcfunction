@@ -14,7 +14,7 @@ scoreboard players set .grenade ability 400
 scoreboard players set .grenade_init ability 650
 
 scoreboard players set .pearl ability 400
-scoreboard players set .pearl_init ability 200
+scoreboard players set .pearl_init ability 300
 
 
 scoreboard players set .smokebomb ability 300

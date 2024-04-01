@@ -5,6 +5,8 @@ tp @a 0 33 33
 clear @a
 xp set @a 0 levels
 effect give @a instant_health 1 100
+execute as @a run function tue:class/reset
+
 kill @e[type=!player,type=!text_display,type=!item_display,type=!block_display,type=!interaction]
 execute as @a[team=!spec] run function tue:class/book
 gamemode adventure @a[team=!spec]

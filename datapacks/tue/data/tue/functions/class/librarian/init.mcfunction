@@ -1,4 +1,8 @@
 #class 1
+
+attribute @s generic.armor base set -1
+
+
 give @s enchanted_book{StoredEnchantments:[{id:"minecraft:sharpness",lvl:4s}]}
 give @s enchanted_book{StoredEnchantments:[{id:"minecraft:knockback",lvl:2s}]}
 give @s enchanted_book{StoredEnchantments:[{id:"minecraft:power",lvl:3s}]}

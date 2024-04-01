@@ -10,6 +10,8 @@ scoreboard objectives add death deathCount
 scoreboard objectives add class_trigger trigger
 scoreboard objectives add player_id dummy
 
+# scoreboard objectives setdisplay sidebar
+
 function tue:system/time/reset
 
 function tue:system/team_setup
