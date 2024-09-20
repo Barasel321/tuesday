@@ -793,9 +793,9 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "cooked_beef": "2023-06-28 16:51:48 -0400",
       "golden_apple": "2023-06-28 16:38:10 -0400",
-      "dried_kelp": "2023-06-28 19:18:46 -0400"
+      "dried_kelp": "2023-06-28 19:18:46 -0400",
+      "cooked_beef": "2023-06-28 16:51:48 -0400"
     },
     "done": false
   },
@@ -1075,5 +1075,23 @@
     },
     "done": true
   },
-  "DataVersion": 3465
+  "minecraft:recipes/decorations/purple_bed": {
+    "criteria": {
+      "has_purple_wool": "2024-09-20 01:24:12 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_carpet": {
+    "criteria": {
+      "has_purple_wool": "2024-09-20 01:24:12 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_banner": {
+    "criteria": {
+      "has_purple_wool": "2024-09-20 01:24:12 -0400"
+    },
+    "done": true
+  },
+  "DataVersion": 3955
 }
