@@ -1,0 +1,21 @@
+{
+    "parent": "tue:ability/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "player": {
+            "slots": {
+              "weapon.*": {
+                "items": "minecraft:flint_and_steel"
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "tue:class/pyromaniac/restore"
+    }
+  }
+  

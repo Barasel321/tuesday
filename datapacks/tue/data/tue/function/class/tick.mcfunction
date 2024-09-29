@@ -6,8 +6,8 @@ execute as @a[scores={class=2}] run function tue:class/rabbit/tick
 execute as @a[scores={class=5}] run function tue:class/demo/tick
 # execute as @a[scores={class=6}] run function tue:class/patient/tick
 execute as @a[scores={class=7}] run function tue:class/magician/tick
-# execute as @a[scores={class=8}] run function tue:class/pyromaniac/tick
+execute as @a[scores={class=8}] run function tue:class/pyromaniac/tick
 execute as @a[scores={class=9}] run function tue:class/ninja/tick
 # execute as @a[scores={class=10}] run function tue:class/miner/tick
-# execute as @a[scores={class=11}] run function tue:class/summoner/tick
+# execute as @a[scores={class=11}] run function tue:class/giant/tick
 execute as @a[scores={class=12}] run function tue:class/enderman/tick

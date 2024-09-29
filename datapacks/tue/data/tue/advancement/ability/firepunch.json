@@ -1,0 +1,19 @@
+{
+    "parent": "tue:ability/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": {
+            "flags": {
+              "is_on_fire": true
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "tue:class/pyromaniac/restore"
+    }
+  }
+    

@@ -1,0 +1,21 @@
+{
+    "parent": "tue:ability/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "player": {
+            "slots": {
+              "weapon.mainhand": {
+                "items": "minecraft:ender_eye"
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "tue:class/magician/wand/punch"
+    }
+  }
+    

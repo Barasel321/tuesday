@@ -9,5 +9,5 @@ execute as @a[scores={class=7}] run function tue:class/magician/init
 execute as @a[scores={class=8}] run function tue:class/pyromaniac/init
 execute as @a[scores={class=9}] run function tue:class/ninja/init
 execute as @a[scores={class=10}] run function tue:class/miner/init
-execute as @a[scores={class=11}] run function tue:class/summoner/init
+execute as @a[scores={class=11}] run function tue:class/giant/init
 execute as @a[scores={class=12}] run function tue:class/enderman/init
